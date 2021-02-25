@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel= "icon logo" href="logo.ico" />
+	<title>Komorebi Ballito</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar --> 
+<!-- Social Media -->
+
+	<div class="topnav" id="myTopnav" >
+		<a href="#home" class="active" > Home </a>
+		<a href="#media"> Media Gallery </a>
+		<a href="#property"> Property Info </a>
+		<a href="#amenities"> Amenities </a>
+		<a href="#contact"> Contact </a>
+		<a href="#pricing"> Season Prices </a>
+		<a href="javascript:void(0);" class="icon bars" onclick="openNav()">
+	    	<i class="fa fa-bars"></i>
+	    </a>
+		<div class="move1 invisible">
+			<a target="_blank" href="https://www.facebook.com/KomorebiBallito/"class="fa fa-facebook"></a>
+		</div>
+		<div class="move2 invisible">
+			<a target="_blank" href="https://www.instagram.com/komorebiballito/" class="fa fa-instagram"></a>
+		</div>
+	</div>
+
+	<div id="myNav" class="overlay">
+		<div class="overlay-content">
+		    <a href="#home" class="active" onclick="closeNav()"> Home </a>
+			<a href="#media" onclick="closeNav()"> Media Gallery </a>
+			<a href="#property" onclick="closeNav()"> Property Info </a>
+			<a href="#amenities" onclick="closeNav()"> Amenities </a>
+			<a href="#contact" onclick="closeNav()"> Contact </a>
+			<a href="#pricing" onclick="closeNav()"> Season Prices </a>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		</div>
+	</div>
+
+<!-- Logo -->
+
+	<div>
+		<br id="home">
+	</div>
+	<br> <br> 
+	<div class="logo center">
+		<img class= "logoimage" src="logo.png"> 
+	</div>
+
+<!-- Cover -->
+
+	<div class="cover center">  
+		<img id="imgBanner" src="" />
+	</div>
+
+<!-- Words -->
+	
+	<div>
+		<br id="media" class="anchor"> 
+	</div>
+	<br> <br> <br> 
+	<div class="words center">
+		<h1> KOMOREBI BALLITO </h1> 
+		<p class="p1"> "Sunshine filtering through the leaves of trees"</p>
+		<p class="p4"> 6 Sleeper Ballito Beach Holiday Apartment </p> <br> 
+		<p class="p5 bold"> Click on the images to enlarge them </p>
+		<br>
+	</div>
+
+<!-- Gallery -->
+		
+	<div class="container">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+	  <img id="expandedImg">
+	</div>
+
+	<div class="row">
+	  <div class="column">
+	    <img class="gallery left" src="1.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="2.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="3.jpeg"  onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="4.jpeg" onclick="myFunction(this);">
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="column">
+	    <img class="gallery left" src="5.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="6.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="7.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="8.jpeg" onclick="myFunction(this);">
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="column left">
+	    <img class="gallery" src="9.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="10.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="11.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="12.jpeg" onclick="myFunction(this);">
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="column left">
+	    <img class="gallery" src="13.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="14.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="15.jpeg" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img class="gallery" src="16.jpeg" onclick="myFunction(this);">
+	  </div>
+	</div>
+
+<!-- Property -->
+
+	<div>
+		<br id="property" class="anchor">
+	</div>
+	<br> <br> <br>  
+	<div class="property center"> 
+		<h2> THE PROPERTY </h2>
+		<p class="writing p1"> Komorebi is a comfortable ground floor self-catering apartment, less than 100 m from the beach and within walking distance to a supermarket and restaurants. This air-conditioned apartment can accommodate up to a maximum of 6 guests. The modern kitchen is fully equipped for self-catering. The lounge features a TV with premium DSTV and opens to a private patio with braai facilities. Safe and secure parking is available and accessed by remote control. The complex offers a swimming pool as well. </p>
+		<div class="center">
+			<a href="mailto:komorebiballito@gmail.com?subject=Booking Inquiry"> <button class="clickbutton1"> Book Now </button> </a>
+		</div>
+		<br>
+		<div class="center"> 	
+			<img class= "propertyimage" src="property.jpeg"> 
+		</div>
+	</div>
+	<br>
+
+<!-- Amenities -->
+	<div>
+		<br id="amenities" class="anchor">
+	</div>
+	<br> <br> <br>   
+	<div class="amenities"> 
+		<div class="letters center">
+			<h2> PROPERTY AMENITIES </h2>
+			<p class="p2"> Everything you need </p> <br>
+		</div>
+		<div class="things">
+			<img src="things1.jpeg" class= "photo"> 
+			<!-- <br> <br> -->
+			<p class="h6 gap1"> FREE WIFI, PREMIUM DSTV & AIRCON <br> <br> <font class="p4 font">Don't lose out on that sports game or favourite series with our Premium DSTV. We also have FREE, uncapped WIFI as well as AIRCON in ALL rooms! </font> </p>
+			<img src="things2.jpeg" class="photo"> 
+			<!-- <br> <br> -->
+			<p class="h6 gap2"> LARGE DECK <br> <br> <font class="p4 font"> Enjoy time with family and friends, lay on our relaxing hammock or read a book on our swing chair on our large deck surrounded by lush greenery! </font> </p>
+			<img src="things3.jpeg" class= "photo"> 
+			<!-- <br> <br> -->
+			<p class="h6 gap3 extra"> 100M FROM THE MAIN BALLITO BEACH AND A FEW STEPS AWAY FROM THE POOL! <br> <br> <font class="p4 font"> We are 100m away from the main Ballito beach (Willard's) where the Billabong Surfing Pro happens every year! Keep an eye on your kiddies in the pool from our deck too! </font> </p> 
+		</div>
+	</div>
+
+
+<!--Contact -->
+	<div>
+		<br id="contact" class="anchor">
+	</div>
+	<br> <br> <br>  
+	<div class="contact center"> 
+		<h2> GET IN TOUCH </h2>
+		<a target="_blank" href="https://www.google.co.za/maps/place/Komorebi/@-29.5336897,31.2121167,15z/data=!3m1!4b1!4m5!3m4!1s0x1ef7148113c17d07:0x6d9b807b9ea3577f!8m2!3d-29.53369!4d31.22085"> <p class="details p2"> 2 Jack Powell Road, Ballito </p> 
+		</a>
+		<a href="mailto:komorebiballito@gmail.com?subject=Booking Inquiry"> <p class="details p2"> komorebiballito@gmail.com </p> 
+		</a>
+		<br>
+		<div class="center"> 
+			<img class= "contactimage" src="contact.jpeg" >
+		</div>
+	</div>
+	<br>
+
+<!-- Pricing -->
+	<div>
+		<br id="pricing" class="anchor">
+	</div>
+	<br> <br> <br> 
+	<div class="pricing center"> 
+		<h2> 2020 SEASON PRICES </h2>
+		<p class="p2"> Book now to avoid disappointment! </p>
+	</div>
+		<div class="seasons">
+			<div class= "columns"> <br>
+				<p class="p0" > R1680 P.N </p>
+				<p class="p1" > Out of Season </p> 
+				<p class="p3 text center" > These are our fixed, base rates for the entire apartment for all dates not in season.</p> 
+				<br>
+				<div class="center push">
+					<a href="mailto:komorebiballito@gmail.com?subject=Out of Season Booking Inquiry"> <button class="clickbutton"> Book your dates now! </button> </a>
+				</div>
+				<br>
+				<br>
+			</div>
+
+			<div class= "columns"> <br>
+				<p class="p0" > R2625 P.N </p>
+				<p class="p1" > Semi-Season </p>
+				<ul class="p3">
+					<li> 6 - 14 January </li>
+					<li> 31 March - 9 April </li>
+					<li> 14 - 30 April </li>
+					<li> 12 June - 6 July </li>
+					<li> 7 - 9 August </li>
+					<li> 18 - 28 September </li>
+					<li> 28 November - 4 December </li>
+				</ul> 
+				<br>
+				<br>
+				<footer class="center push">
+					<a href="mailto:komorebiballito@gmail.com?subject=Semi-Season Booking Inquiry"> <button class="clickbutton down"> Book your dates now! </button> </a>
+				</footer>
+				<br>
+				<br>
+			</div>
+
+			<div class= "columns"> <br>
+				<p class="p0" > R2940 P.N </p>
+				<p class="p1" > In Season </p>
+				<ul class="p3">
+					<li> 20 - 30 March </li>
+					<li> 10 - 13 April </li>
+					<li> 5 - 11 December </li>
+				</ul>
+				<br>
+				<div class="center push">
+					<a href="mailto:komorebiballito@gmail.com?subject=In Season Booking Inquiry"> <button class="clickbutton"> Book your dates now! </button> </a>
+				</div>
+				<br>
+				<br>
+			</div>
+
+			<div class= "columns"> <br>
+				<p class="p0" > R3570 P.N </p> 
+				<p class="p1" > Peak Season </p> 
+				<ul class="p3">
+					<li> 12 December - January 2021 </li>
+				</ul>
+				<br>
+				<div class="center push">
+					<a href="mailto:komorebiballito@gmail.com?subject=Peak Season Booking Inquiry"> <button class="clickbutton"> Book your dates now! </button></a>
+				</div>
+				<br>
+				<br>
+			</div>
+			<br> <br> <br> 
+		</div>
+	</div>
+
+<script>
+	function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+</script>
+
+<script>
+	function Navbar() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+</script>
+
+<script type="text/javascript"> 
+	var picPaths = ['cover1.jpeg', 'cover2.jpeg', 'cover3.jpeg'];
+	var curPic = -1;
+
+	//preload the images for smooth animation
+	var imgO = new Array();
+	for(i=0; i < picPaths.length; i++) {
+		imgO[i] = new Image();
+		imgO[i].src = picPaths[i];
+	}
+
+	function swapImage() {
+		curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+		imgCont.src = imgO[curPic].src;
+		setTimeout(swapImage,7000);
+	}
+
+	window.onload=function() {
+		imgCont = document.getElementById('imgBanner');
+		swapImage();
+	}
+</script>
+
+<script>
+	function myFunction(imgs) {
+	  var expandImg = document.getElementById("expandedImg");
+	  expandImg.src = imgs.src;
+	  expandImg.parentElement.style.display = "block";
+	}
+</script>
+
+</body>
+</html>
